@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/* .container {
+    background-image: url(https://img.freepik.com/premium-vector/vector-teamwork-design-concept-with-puzzle-people-business-partnership-illustration-landing-page-template-web_559317-1156.jpg?w=2000);
+    max-width: 100%;
+    background-size: cover;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-name {
+    margin: 20px 0 0 30px;
+}
+
+.nav-bar {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-item .item {
+    padding-right: 5px;
+}
+
+.brand-name .fa-solid {
+    position: relative;
+    top: 3px;
+}
+
+.nav-item .fa-solid {
+    position: relative;
+    top: 5px;
+}
+
+.nav-item:hover {
+    color: #8d929c;
+    border-color: #8d929c;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.mega-menu {
+    visibility: hidden;
+    display: flex;
+    width: 1250px;
+    max-width: 100%;
+    position: absolute;
+    box-shadow: -2px 3px 3px 3px #e5e2e2;
+    background: #fff;
+    top: 100px;
+    right: 0;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px 3px #e5e2e2;
+    background: #fff;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.nav-item:hover .mega-menu {
+    visibility: visible;
+}
+
+a {
+    display: inline-block;
+    padding: 12px;
+}
+
+.left-mega-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-mega-menu .usage-list,
+.left-mega-menu .styleguide-list {
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 27px;
+}
+
+.left-mega-menu .usage-list .usage-item,
+.left-mega-menu .styleguide-list .styleguide-item {
+    flex-basis: 40%;
+}
+
+.right-mega-menu {
+    padding-left: 30px;
+    border-left: 1px solid rgba(128, 128, 128, 0.431);
+
+}
+
+.right-mega-menu .elements-list {
+    width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.right-mega-menu .elements-list .elements-items {
+    flex-basis: 30%;
+}
+
+.usage-name,
+.styleguide-name,
+.elements-name {
+    padding-left: 12px;
+    color: black;
+    font-weight: 600;
+}
